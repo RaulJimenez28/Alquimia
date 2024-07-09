@@ -1,0 +1,18 @@
+.navbar {
+    overflow: hidden;
+}
+
+/* Estilos originales para los enlaces del navbar */
+.navbar-nav .nav-link {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+
+/* Cambia el color a skyblue cuando el tamaño de la ventana es pequeño */
+@media (max-width: 600px) {
+    .navbar-nav .nav-link {
+        color: skyblue;
+    }
+}
